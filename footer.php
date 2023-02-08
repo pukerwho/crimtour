@@ -19,7 +19,7 @@
         </div>
         <div>
           <?php wp_nav_menu([
-            'theme_location' => 'header',
+            'theme_location' => 'footer',
             'container' => 'div',
             'menu_class' => 'flex flex-col'
           ]); ?> 

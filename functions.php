@@ -15,6 +15,7 @@ if ( ! function_exists( 'treba_wp_setup' ) ) :
 		register_nav_menus(
 			array(
 				'main' => esc_html__( 'Main', 'catalog-wp' ),
+        'footer' => esc_html__( 'Footer', 'catalog-wp' ),
         'mobile' => esc_html__( 'Mobile', 'catalog-wp' ),
         'footer-cms' => esc_html__( 'Footer-cms', 'catalog-wp' ),
 			)
