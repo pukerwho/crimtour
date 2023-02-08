@@ -6,7 +6,7 @@
       <?php get_template_part("template-parts/sidebar"); ?>
     </div>
     <div class="w-full lg:w-4/5 lg:px-10 mb-6 lg:mb-0">
-      <h1 class="text-3xl lg:text-4xl font-bold mb-4"><?php _e("Каталог сайтів", "treba-wp"); ?></h1>
+      <h1 class="text-3xl lg:text-4xl font-bold mb-4 lg:pt-8"><?php _e("Каталог сайтів", "treba-wp"); ?></h1>
       <div class="font-light opacity-75 mb-6"><?php _e("Всі сайти, які ми перевірили", "treba-wp"); ?>.</div>
       <div class="flex flex-wrap lg:-mx-4 mb-6">
         <?php 
