@@ -5,7 +5,7 @@
     <div class="w-full lg:w-1/5 border-r border-gray-200 lg:px-10">
       <?php get_template_part("template-parts/sidebar"); ?>
     </div>
-    <div class="w-full lg:w-4/5 lg:px-10 mb-6 lg:mb-0">
+    <div class="w-full lg:w-4/5 lg:px-10 mb-6">
       <h1 class="text-3xl lg:text-4xl font-bold mb-4 lg:pt-8"><?php _e("Каталог сайтів", "treba-wp"); ?></h1>
       <div class="font-light opacity-75 mb-6"><?php _e("Нещодавно перевірені сайти", "treba-wp"); ?>.</div>
       <div class="flex flex-wrap lg:-mx-4 mb-6">
