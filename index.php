@@ -20,8 +20,20 @@
         </div>
         <?php endwhile; endif; wp_reset_postdata(); ?>
       </div>
-      <div class="flex justify-center">
+      <div class="flex justify-center mb-10">
         <a href="<?php echo get_post_type_archive_link('sites'); ?>" class="inline-block hover:bg-gray-600 hover:text-white relative text-lg border-2 border-gray-600 rounded-lg px-8 py-2"><?php _e("Перейти в каталог", "treba-wp"); ?></a>
+      </div>
+      <div>
+        <div class="text-lg font-semibold border-b border-gray-200 pb-4 mb-4"><?php _e("Популярні запити", "treba-wp"); ?></div>
+        <div class="w-full lg:w-1/3 lg:px-4 mb-4">
+          <div><a href="https://s-cast.ua/" class="hover:text-blue-500">s-cast.ua</a></div>
+          <div><a href="https://treba-solutions.com/" class="hover:text-blue-500">treba-solutions.com</a></div>
+          <div><a href="https://sdamkvartiry.com/" class="hover:text-blue-500">sdamkvartiry.com</a></div>
+          <div><a href="https://tarakan.org.ua/" class="hover:text-blue-500">tarakan.org.ua</a></div>
+          <div><a href="https://priazovka.com/" class="hover:text-blue-500">priazovka.com</a></div>
+          <div><a href="https://auto-future.land/" class="hover:text-blue-500">auto-future.land</a></div>
+          <div><a href="https://webgolovolomki.com/" class="hover:text-blue-500">webgolovolomki.com</a></div>
+        </div>
       </div>
     </div>
   </div>
