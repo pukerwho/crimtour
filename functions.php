@@ -36,7 +36,7 @@ include('inc/create-custom-posts.php');
 include('inc/create-custom-taxonomy.php');
 include('inc/sites-functions.php');
 include('inc/simple_html_dom.php');
-
+include('inc/super-links/super-functions.php');
 
 use Carbon_Fields\Container;
 use Carbon_Fields\Field;

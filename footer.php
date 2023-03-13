@@ -1,3 +1,42 @@
+<div class="container mt-10">
+  <div class="text-lg font-semibold border-b border-gray-200 pb-4 mb-4">🔍 <?php _e("Популярні запити", "treba-wp"); ?></div>
+  <div class="flex flex-wrap lg:-mx-4">
+    <?php if ( is_home() ): ?>
+      <div class="w-full lg:w-1/3 lg:px-4 mb-4">
+        <div><a href="https://s-cast.ua/" class="hover:text-blue-500">s-cast.ua</a></div>
+      </div>
+      <div class="w-full lg:w-1/3 lg:px-4 mb-4">
+        <div><a href="https://treba-solutions.com/" class="hover:text-blue-500">treba-solutions.com</a></div>
+      </div>
+      <div class="w-full lg:w-1/3 lg:px-4 mb-4">
+        <div><a href="https://sdamkvartiry.com/" class="hover:text-blue-500">sdamkvartiry.com</a></div>
+      </div>
+      <div class="w-full lg:w-1/3 lg:px-4 mb-4">
+        <div><a href="https://tarakan.org.ua/" class="hover:text-blue-500">tarakan.org.ua</a></div>
+      </div>
+      <div class="w-full lg:w-1/3 lg:px-4 mb-4">
+        <div><a href="https://priazovka.com/" class="hover:text-blue-500">priazovka.com</a></div>
+      </div>
+      <div class="w-full lg:w-1/3 lg:px-4 mb-4">
+        <div><a href="https://auto-future.land/" class="hover:text-blue-500">auto-future.land</a></div>
+      </div>
+      <div class="w-full lg:w-1/3 lg:px-4 mb-4">
+        <div><a href="https://webgolovolomki.com/" class="hover:text-blue-500">webgolovolomki.com</a></div>
+      </div>
+    <?php else: ?>
+      <?php 
+        $current_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+        $super_links = super_links($current_url);
+        foreach ($super_links as $super_link):
+      ?>
+      <div class="w-full lg:w-1/3 lg:px-4 mb-4">
+        <div><?php echo $super_link->top_links; ?></div>
+      </div>
+      <?php endforeach; ?>
+    <?php endif; ?>  
+  </div>
+</div>
+
 </div>
 
 <footer class="bg-theme-dark text-gray-200 py-20">
