@@ -27,5 +27,12 @@
     </ul>
   </div>
 
+  <div class="mb-6">
+    <div class="text-sm font-light uppercase opacity-75 mb-4"><?php _e("Цікаві статті", "treba-wp"); ?></div>
+    <div class="flex items-center">
+      <div><a href="https://icatalog.pro/12670-vazhnost-roli-videonabljudenija/" class="text-sm font-light text-gray-600 hover:text-blue-600">О важности роли видеонаблюдения в системе охраны частного дома</a></div>
+    </div>
+  </div>
+
   <div class="menu-close block lg:hidden border border-gray-300 rounded text-center text-gray-600 px-4 py-3"><?php _e("Закрити меню", "treba-wp"); ?></div>
 </div>
