@@ -30,7 +30,7 @@
   <div class="mb-6">
     <div class="text-sm font-light uppercase opacity-75 mb-4"><?php _e("Цікаві статті", "treba-wp"); ?></div>
     <div class="flex items-center">
-      <div><a href="https://icatalog.pro/12670-vazhnost-roli-videonabljudenija/" class="text-sm font-light text-gray-600 hover:text-blue-600">О важности роли видеонаблюдения в системе охраны частного дома</a></div>
+      <div><a href="https://icatalog.pro/12977-about-cctv/" class="text-sm font-light text-gray-600 hover:text-blue-600">О важности роли видеонаблюдения в системе охраны частного дома</a></div>
     </div>
   </div>
 
