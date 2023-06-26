@@ -27,6 +27,9 @@
         <div><a href="https://icatalog.pro/" class="hover:text-blue-500">icatalog.pro</a></div>
       </div>
       <div class="w-full lg:w-1/3 lg:px-4 mb-4">
+        <div><a href="https://speakwell.ua/" class="hover:text-blue-500">speakwell.ua</a></div>
+      </div>
+      <div class="w-full lg:w-1/3 lg:px-4 mb-4">
         <div><a href="https://webgolovolomki.com/" class="hover:text-blue-500">webgolovolomki.com</a></div>
       </div>
     <?php else: ?>
