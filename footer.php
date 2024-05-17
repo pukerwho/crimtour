@@ -53,8 +53,11 @@
           <a href="<?php echo get_home_url(); ?>" class="absolute-link"></a>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/crimtour-white-logo.png" alt="Лого">
         </div>
-        <div class="text-sm font-light opacity-75">
+        <div class="text-sm font-light opacity-75 mb-6">
           В цьому каталозі не всі сайти, які є в інтернеті. Але наша команда постійно працює над тим, щоб додавати нові цікаві сайти в наш каталог. Ми можете нам допомогти в цьому ;) Будемо дуже вдячні за будь-яку допомогу.
+        </div>
+        <div>
+          <a href="https://sviato.top/"><img src="https://crimtour.com/wp-content/uploads/2024/05/sviato.jpeg" alt="Sviato.top" width="25"></a>
         </div>
       </div>
 
